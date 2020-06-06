@@ -67,10 +67,11 @@ body {
 }
 
 form {
-  padding: 30px;
+  margin: 30px;
   display: flex;
   flex-direction: column;
   text-align: left;
+  justify-content: space-between;
 }
 
 .submit-button {
@@ -120,9 +121,4 @@ footer ul {
 
 footer li {
   padding: 0 10px;
-}
-
-footer a {
-  color: #505050;
-  text-decoration: none;
 }
